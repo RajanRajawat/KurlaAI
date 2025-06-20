@@ -15,7 +15,7 @@ def speak(text):
 
 def aiProcess(d):
     client = OpenAI(
-    api_key = "9bc1d280-7ca0-49ff-88a0-5f139dae3b13",
+    api_key = "Insert_your_API_here", #<<<Replace API KEY HERE
     base_url = "https://api.kluster.ai/v1"
     )
     completion = client.chat.completions.create(
